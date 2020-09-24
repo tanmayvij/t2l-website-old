@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learn App Development, Programming, Graphic Designing and more | Tech2Learn</title>
+    <!--meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Online corporate training for App Development, Programming, Movie Making, Graphic Designing and Machine Learning.">
+    <meta name="keywords" content="online courses, training, app development, live sessions, python, programming, object oriented programming, tensorflow, machine learning, movie editing, movie making, graphic designing, photoshop, CorelDraw, adobe, premiere pro" />
+    <script>
+      addEventListener("load", function () {
+      	setTimeout(hideURLbar, 0);
+        if(getParams(window.location.href).message !== "" && getParams(window.location.href).message)
+        {
+          alert(getParams(window.location.href).message);
+        }
+      }, false);
+      
+      function hideURLbar() {
+      	window.scrollTo(0, 1);
+      }
+
+      var getParams = function (url) {
+	var params = {};
+	var parser = document.createElement('a');
+	parser.href = url;
+	var query = parser.search.substring(1);
+	var vars = query.split('&');
+	for (var i = 0; i < vars.length; i++) {
+		var pair = vars[i].split('=');
+		params[pair[0]] = decodeURIComponent(pair[1]);
+	}
+	return params;
+};
+
+   </script>
+    <!--//meta tags ends here-->
+    <!--booststrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <!--//booststrap end-->
+    <!-- font-awesome icons -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+    <!-- //font-awesome icons -->
+    <link href="css/blast.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/style10.css" />
+    <!--stylesheets-->
+    <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+    <!--//stylesheets-->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Merriweather:300,400,700,900" rel="stylesheet">
+   <link rel="icon" href="images/favicon.png" />
+  </head>
+  <body>
+    <div class="blast-box">
+      <div class="blast-icon"><span class="fas fa-tint"></span></div>
+      <div class="blast-frame">
+        <p>change colors</p>
+        <div class="blast-colors">
+          <div class="blast-color">#86bc42</div>
+          <div class="blast-color">#8373ce</div>
+          <div class="blast-color">#14d4f4</div>
+          <div class="blast-color">#72284b</div>
+        </div>
+        <p class="blast-custom-colors">Custom colors</p>
+        <input type="color" name="blastCustomColor" value="#cf2626">
+      </div>
+    </div>
+    <div class="header-outs" id="header">
+      <div class="header-w3layouts">
+        <div class="container">
+          <div class="row headder-contact">
+            <div class="col-lg-6 col-md-7 col-sm-9 info-contact-agile">
+              <ul>
+                <li>
+                  <span class="fas fa-phone-volume" ></span>
+                  <p>+91-9971999404</p>
+                </li>
+                <li>
+                  <span class="fas fa-envelope"></span>
+                  <p><a href="mailto:contact@tech2learn.in">contact@tech2learn.in</a></p>
+                </li>
+                <li>
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          
+          <a href="index.html" style="background-color: #FFF;"><img src="images/logo.png" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="headdser-nav-color" data-blast="bgColor">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="nav-link scroll" >About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#courses" class="nav-link scroll">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#stats" class="nav-link scroll">Stats</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#contact" class="nav-link scroll">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!--//navigation section -->
+        <div class="clearfix"> </div>
+      </div>
+      <!--banner -->
+      <!-- Slideshow 4 -->
+      <div class="slider">
+        <div class="callbacks_container">
+          <ul class="rslides" id="slider4">
+            <li>
+              <div class="slider-img one-img">
+                
+              </div>
+            </li>
+            <li>
+              <div class="slider-img two-img">
+                
+              </div>
+            </li>
+            <li>
+              <div class="slider-img three-img">
+                
+              </div>
+            </li>
+            <li>
+              <div class="slider-img four-img">
+                
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- //banner -->
+    <!--about-->
+    <section class="pt-md-5 pt-sm-4 pt-3">
+      <div class="container-fluid ">
+        <div class="main row ">
+          
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <!--Horizontal Tab-->
+        <div id="horizontalTab">
+          <ul class="resp-tabs-list justify-content-center">
+            <li data-blast="bgColor">Courses</li>
+            <li data-blast="bgColor">Training Process</li>
+            <li data-blast="bgColor">Enrollment</li>
+          </ul>
+          <div class="resp-tabs-container">
+            <div class="tab1" >
+              <div class="row mt-lg-4 mt-3">
+                <div class="col-md-7 latest-list">
+                  <div class="about-jewel-agile-left">
+                    <h4 class="mb-3" data-blast="color">Dolor sit </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque</p>
+                    <h5 data-blast="color"> Who we are</h5>
+                  </div>
+                </div>
+                <div class="col-md-5 about-txt-img">
+                  <img src="images/ab1.jpg" class="img-thumbnail" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="tab2">
+              <div class="row mt-lg-4 mt-3">
+                <div class="col-md-5 about-txt-img">
+                  <img src="images/ab3.jpg" class="img-thumbnail" alt="">
+                </div>
+                <div class="col-md-7 latest-list">
+                  <div class="about-jewel-agile-left">
+                    <h4 class="mb-3" data-blast="color"> ipsum dolor</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque</p>
+                    <h5 data-blast="color">What We do</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab3">
+              <div class="row mt-lg-4 mt-3">
+                <div class="col-md-7 latest-list">
+                  <div class="about-jewel-agile-left">
+                    <h4 class="mb-3" data-blast="color">Lorem ipsum</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna, euismod ut ornare non, volutpat vel tortor. Integer laoreet placerat suscipit. Sed sodales scelerisque</p>
+                    <h5 data-blast="color">What Our Vision</h5>
+                  </div>
+                </div>
+                <div class="col-md-5 about-txt-img">
+                  <img src="images/ab2.jpg" class="img-thumbnail" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--//about-->
+    
+    <!--blog -->
+    <section class="blog py-lg-4 py-md-3 py-sm-3 py-3" id="courses">
+      <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+        <h3 class="title text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Available Courses</h3>
+        <div class="row">
+          
+          <div class="col-lg-4 col-md-6 col-sm-6  blog-grid-flex">
+            <div class="clients-color">
+              <img src="images/b1.jpg" class="img-fluid" alt="">
+              <div class="blog-txt-info">
+                <h4 class="mt-2"><a href="#" data-toggle="modal" data-target="#modal1" data-blast="color">Mobile App Development</a></h4>
+                <div class="news-date my-3">
+                  <ul>
+                    <li class="mr-3"><span class="far fa-calendar-check"></span><a href="#" data-toggle="modal" data-target="#modal1">17/08/2020</a></li>
+                    <li><span class="far fa-clock"></span><a href="#" data-toggle="modal" data-target="#modal1">10 Sessions</a></li>
+                  </ul>
+                </div>
+                <p>Learn to develop amazing cross platform mobile applications using React Native, the leading mobile framework in the industry.'</p>
+                <div class="outs_more-buttn" >
+                  <a href="#" data-toggle="modal" data-target="#modal1" data-blast="bgColor">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--div class="col-lg-4 col-md-6 col-sm-6 blog-grid-flex">
+            <div class="clients-color">
+              <img src="images/b2.jpg" class="img-fluid" alt="">
+              <div class="blog-txt-info">
+                <h4 class="mt-2"><a href="#" data-toggle="modal" data-target="#modal2" data-blast="color">Machine Learning</a></h4>
+                <div class="news-date my-3">
+                  <ul>
+                    <li class="mr-3"><span class="far fa-calendar-check"></span><a href="#" data-toggle="modal" data-target="#modal2">12/4/2020</a></li>
+                    <li><span class="far fa-clock"></span><a href="#" data-toggle="modal" data-target="#modal2">16 Sessions</a></li>
+                  </ul>
+                </div>
+                <p>Text</p>
+                <div class="outs_more-buttn" >
+                  <a href="#" data-toggle="modal" data-target="#modal2" data-blast="bgColor">More</a>
+                </div>
+              </div>
+            </div>
+          </div-->
+          <div class="col-lg-4 col-md-6 col-sm-6 blog-grid-flex">
+            <div class="clients-color">
+              <img src="images/b3.jpg" class="img-fluid" alt="">
+              <div class="blog-txt-info">
+                <h4 class="mt-2"><a href="#" data-toggle="modal" data-target="#modal3" data-blast="color">Python Programming</a></h4>
+                <div class="news-date my-3">
+                  <ul>
+                    <li class="mr-3"><span class="far fa-calendar-check"></span><a href="#" data-toggle="modal" data-target="#modal3" >12/4/2020</a></li>
+                    <li><span class="far fa-clock"></span><a href="#" data-toggle="modal" data-target="#modal3" >6 Sessions</a></li>
+                  </ul>
+                </div>
+                <p>Learn the most important concepts of the Python Programming Language - The most in-demand programming language of the era.</p>
+                <div class="outs_more-buttn" >
+                  <a href="#" data-toggle="modal" data-target="#modal3" data-blast="bgColor">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 blog-grid-flex">
+            <div class="clients-color">
+              <img src="images/b4.jpg" class="img-fluid" alt="">
+              <div class="blog-txt-info">
+                <h4 class="mt-2"><a href="#" data-toggle="modal" data-target="#modal4" data-blast="color">Advanced Python (Data Analysis)</a></h4>
+                <div class="news-date my-3">
+                  <ul>
+                    <li class="mr-3"><span class="far fa-calendar-check"></span><a href="#" data-toggle="modal" data-target="#modal4" >12/4/2020</a></li>
+                    <li><span class="far fa-clock"></span><a href="#" data-toggle="modal" data-target="#modal4" >6 Sessions</a></li>
+                  </ul>
+                </div>
+                <p>Learn to analyze and visualize large sets of data using Python Libraries like Numpy, Pandas and Matplotlib.</p>
+                <div class="outs_more-buttn" >
+                  <a href="#" data-toggle="modal" data-target="#modal4" data-blast="bgColor">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 blog-grid-flex">
+            <div class="clients-color">
+              <img src="images/b5.jpg" class="img-fluid" alt="">
+              <div class="blog-txt-info">
+                <h4 class="mt-2"><a href="#" data-toggle="modal" data-target="#modal5" data-blast="color">Movie Making (Adobe Premiere)</a></h4>
+                <div class="news-date my-3">
+                  <ul>
+                    <li class="mr-3"><span class="far fa-calendar-check"></span><a href="#" data-toggle="modal" data-target="#modal5" >12/4/2020</a></li>
+                    <li><span class="far fa-clock"></span><a href="#" data-toggle="modal" data-target="#modal5" >6 Sessions</a></li>
+                  </ul>
+                </div>
+                <p>Learn to create your own Professional Film Projects and become an advanced video editor with our Movie Making Course.</p>
+                <div class="outs_more-buttn" >
+                  <a href="#" data-toggle="modal" data-target="#modal5" data-blast="bgColor">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 blog-grid-flex">
+            <div class="clients-color">
+              <img src="images/b6.jpg" class="img-fluid" alt="">
+              <div class="blog-txt-info">
+                <h4 class="mt-2"><a href="#" data-toggle="modal" data-target="#modal6" data-blast="color">Graphic Designing with CorelDraw</a></h4>
+                <div class="news-date my-3">
+                  <ul>
+                    <li class="mr-3"><span class="far fa-calendar-check"></span><a href="#" data-toggle="modal" data-target="#modal6" >12/4/2020</a></li>
+                    <li><span class="far fa-clock"></span><a href="#" data-toggle="modal" data-target="#modal6" >6 Sessions</a></li>
+                  </ul>
+                </div>
+                <p>Enter the amazing world of Visual Communication, a field so vast that it is part of every industry around the world.</p><br>
+                <div class="outs_more-buttn" >
+                  <a href="#" data-toggle="modal" data-target="#modal6" data-blast="bgColor">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 blog-grid-flex">
+            <div class="clients-color">
+              <img src="images/b7.jpg" class="img-fluid" alt="">
+              <div class="blog-txt-info">
+                <h4 class="mt-2"><a href="#" data-toggle="modal" data-target="#modal7" data-blast="color">The Adobe Photoshop Masterclass</a></h4>
+                <div class="news-date my-3">
+                  <ul>
+                    <li class="mr-3"><span class="far fa-calendar-check"></span><a href="#" data-toggle="modal" data-target="#modal7" >12/4/2020</a></li>
+                    <li><span class="far fa-clock"></span><a href="#" data-toggle="modal" data-target="#modal7" >6 Sessions</a></li>
+                  </ul>
+                </div>
+                <p>Master an industry-leading software that is used all around the world for image editing with our Advanced Photoshop Course.</p>
+                <div class="outs_more-buttn" >
+                  <a href="#" data-toggle="modal" data-target="#modal7" data-blast="bgColor">More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!--//blog -->
+    <!--stats-->
+    <section class="stats py-lg-4 py-md-3 py-sm-3 py-3" id="stats">
+      <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Our Stats </h3>
+        <div align="center">
+          <div class="jst-must-info text-center">
+            <div class="row stats-info">
+              <div class="col-lg-3 col-md-6 col-sm-6 col-6 stats-grid-1">
+                <div class="stats-grid" data-blast="bgColor">
+                  <div class="counter">20</div>
+                  <div class="stat-info">
+                    <h5 class="pt-2">Years of Experience </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-6 stats-grid-2">
+                <div class=" stats-grid" data-blast="bgColor">
+                  <div class="counter">6</div>
+                  <div class="stat-info">
+                    <h5 class="pt-2">Team<br>Members</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-6 stats-grid-4">
+                <div class=" stats-grid" data-blast="bgColor">
+                  <div class="counter">1000</div>
+                  <div class="stat-info">
+                    <h5 class="pt-2">Students Trained</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6 col-6 stats-grid-4">
+                <div class=" stats-grid" data-blast="bgColor">
+                  <div class="counter">10</div>
+                  <div class="stat-info">
+                    <h5 class="pt-2">Projects Completed</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--//stats-->
+    
+    <!--contact -->
+    <section class="contact py-lg-4 py-md-3 py-sm-3 py-3" id="contact">
+      <div class="container py-lg-5 py-md-5 py-sm-4 py-3">
+        <h3 class="title clr text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">Have Questions?</h3>
+        <div class="row">
+          <div class="col-md-5 address-grid">
+            <div class="addres-office-hour text-center" >
+              <ul>
+                <li class="mt-lg-4 mt-3">
+                  <h6 data-blast="color">Phone</h6>
+                </li>
+                <li class="mt-2">
+                  <p>+91-9971999404</p>
+                </li>
+                <li class="mt-lg-4 mt-3">
+                  <h6 data-blast="color">Email</h6>
+                </li>
+                <li class="mt-2">
+                  <p><a href="mailto:contact@tech2learn.in">contact@tech2learn.in</a></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-7 contact-form bg-secondary" id="email_form">
+            <form action="https://postmail.invotes.com/send" method="post">
+              <input type="hidden" name="access_token" value="u1ibzut0xpzigqj3dsfe5abt">
+              <input type="hidden" name="success_url" value="https://www.tech2learn.in?message=Thank%20you%20for%20writing%20to%20us.%20We%20will%20get%20back%20to%20you%20soon.&isError=0" />
+              <input type="hidden" name="error_url" value="https://www.tech2learn.in?message=Email%20could%20not%20be%20sent.%20Please%20write%20to%20us%20at%20contact@tech2learn.in&isError=1" />
+              <div class="row text-center contact-wls-detail">
+                <div class="col-md-6 form-group contact-forms">
+                  <input type="text" name="extra_name" class="form-control" placeholder="Your Name" required="">
+                </div>
+                <div class="col-md-6 form-group contact-forms">
+                  <input type="email" name="extra_email" class="form-control" placeholder="Your Email" required="">
+                </div>
+              </div>
+              <div class="form-group contact-forms">
+                <input type="text" name="extra_mobile" class="form-control" placeholder="Mobile Number" required="">
+              </div>
+              <div class="form-group contact-forms">
+                <input type="text" name="subject" class="form-control" placeholder="Subject" required="">
+              </div>
+              <div class="form-group contact-forms">
+                <textarea name="text" class="form-control" rows="3" placeholder="Your Message" required=""></textarea>
+              </div>
+              <div class="sent-butnn text-center">
+                <button type="submit" class="btn btn-block" data-blast="bgColor" id="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--//contact -->
+    <!--footer-->
+    <div class="nav-footer py-sm-4 py-3">
+      <div class="container-fluid">
+        <div class="buttom-nav ">
+          <nav class="border-line py-2">
+            <ul class="nav justify-content-center">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link scroll">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#courses" class="nav-link scroll">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link scroll">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <footer class="py-3">
+      <div class="container">
+        <div align="center">
+          Number of Page Views: 
+          <!-- hitwebcounter Code START -->
+          <a href="https://www.hitwebcounter.com" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=7654307&style=0005&nbdigits=5&type=page&initCount=1000" title="Free Stats for webpages" Alt="hitwebcounter"   border="0" >
+          </a>                                    
+        </div><br>
+          <p> 
+            © 2020 Tech2Learn. All Rights Reserved | Design by <a href="http://www.W3Layouts.com" target="_blank">W3Layouts</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!--//footer-->
+    <!--modals-->
+    <div id="modal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLiveLabel" data-blast="color">Mobile App Development</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="images/b1.jpg" alt="" class="img-fluid">
+            <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+              eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellu
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLiveLabel" data-blast="color">Machine Learning</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="images/b2.jpg" alt="" class="img-fluid">
+            <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+              eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellu
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLiveLabel" data-blast="color">Python Programming</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="images/b3.jpg" alt="" class="img-fluid">
+            <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+              eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellu
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLiveLabel" data-blast="color">Advanced Python (Data Analysis)</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="images/b4.jpg" alt="" class="img-fluid">
+            <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+              eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellu
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLiveLabel" data-blast="color">Movie Making (Adobe Premiere)</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="images/b5.jpg" alt="" class="img-fluid">
+            <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+              eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellu
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLiveLabel" data-blast="color">Graphic Designing with CorelDraw</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="images/b6.jpg" alt="" class="img-fluid">
+            <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+              eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellu
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLiveLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLiveLabel" data-blast="color">The Adobe Photoshop Masterclass</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="images/b7.jpg" alt="" class="img-fluid">
+            <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae,
+              eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellu
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//modals-->
+    <!--js working-->
+    <script src='js/jquery-2.2.3.min.js'></script>
+    <!--//js working--> 
+    <!--blast colors change-->
+    <script src="js/blast.min.js"></script>
+    <!--//blast colors change-->
+    <!--responsiveslides banner-->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+      // You can also use "$(window).load(function() {"
+      $(function () {
+      	// Slideshow 4
+      	$("#slider4").responsiveSlides({
+      		auto: true,
+      		pager:false,
+      		nav:true ,
+      		speed: 900,
+      		namespace: "callbacks",
+      		before: function () {
+      			$('.events').append("<li>before event fired.</li>");
+      		},
+      		after: function () {
+      			$('.events').append("<li>after event fired.</li>");
+      		}
+      	});
+      
+      });
+    </script>
+    <!--// responsiveslides banner-->		  
+    <!--responsive tabs-->	 
+    <script src="js/easy-responsive-tabs.js"></script>
+    <script>
+      $(document).ready(function () {
+      $('#horizontalTab').easyResponsiveTabs({
+      type: 'default', //Types: default, vertical, accordion           
+      width: 'auto', //auto or any width like 600px
+      fit: true,   // 100% fit in a container
+      closed: 'accordion', // Start closed if in accordion view
+      activate: function(event) { // Callback function if tab is switched
+      var $tab = $(this);
+      var $info = $('#tabInfo');
+      var $name = $('span', $info);
+      $name.text($tab.text());
+      $info.show();
+      }
+      });
+      });
+       
+    </script>
+    <!--// responsive tabs-->	
+    <!--About OnScroll-Number-Increase-JavaScript -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.js"></script>
+    <script>
+      $('.counter').countUp();
+    </script>
+    <!-- //OnScroll-Number-Increase-JavaScript -->	  
+    <!-- start-smoth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+      	$(".scroll").click(function (event) {
+      		event.preventDefault();
+      		$('html,body').animate({
+      			scrollTop: $(this.hash).offset().top
+      		}, 900);
+      	});
+      });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <!-- here stars scrolling icon -->
+    <script>
+      $(document).ready(function () {
+      
+      	var defaults = {
+      		containerID: 'toTop', // fading element id
+      		containerHoverID: 'toTopHover', // fading element hover id
+      		scrollSpeed: 1200,
+      		easingType: 'linear'
+      	};
+      
+      
+      	$().UItoTop({
+      		easingType: 'easeOutQuart'
+      	});
+      
+      });
+    </script>
+    <!-- //here ends scrolling icon -->
+    <!--bootstrap working-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- //bootstrap working-->
+  </body>
+</html>
